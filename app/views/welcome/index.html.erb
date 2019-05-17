@@ -1,0 +1,10 @@
+<%= render 'menu' %>
+<h1>Seja bem vindo ao Curso de Rails</h1>
+<h2><%= date_br(Date.today) %></h2>
+<h2> Ambiente de <%= environment(Rails.env) %> </h2>
+<h3> <%= @nome %> </h3>
+<ul> 
+    <li> 
+        <%= link_to "Cadastrar Moedas", coins_path %>
+    </li>  
+</ul>
