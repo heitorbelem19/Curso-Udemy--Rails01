@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# Crypto-Wallet
+Repositório do curso de Ruby on Rails- Início
+>>>>>>> a2ce4e10d9a891556a2d23e41a5ee451c42c73d1
