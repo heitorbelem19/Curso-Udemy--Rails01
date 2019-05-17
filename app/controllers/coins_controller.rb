@@ -1,5 +1,5 @@
 class CoinsController < ApplicationController
-  before_action :set_coin, only: [:show, :edit, :update, :destroy]
+  before_action :set_coin, only: [:show, :edit, :update, :destroy] #Filtro
 
   # GET /coins
   # GET /coins.json
@@ -25,7 +25,6 @@ class CoinsController < ApplicationController
   # POST /coins.json
   def create
     @coin = Coin.new(coin_params)
-
     respond_to do |format|
       if @coin.save
         format.html { redirect_to @coin, notice: 'Coin was successfully created.' }
