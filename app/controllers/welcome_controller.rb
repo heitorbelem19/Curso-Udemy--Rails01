@@ -1,5 +1,7 @@
 class WelcomeController < ApplicationController
   def index
-    @nome = 'Heitor de Lima Belém'
+    #cookies[:curso] = "Ruby on Rails [COOKIE]"
+    @nome = params[:nome]
+    @curso = params[:curso]
   end
 end
