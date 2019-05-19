@@ -45,7 +45,7 @@ class CoinsController < ApplicationController
 				format.html { redirect_to @coin, notice: 'Coin was successfully updated.' }
 				format.json { render :show, status: :ok, location: @coin }
 			else
-				format.html { render :edit }
+				format.html { render :edit, notice: 'Error' }
 				format.json { render json: @coin.errors, status: :unprocessable_entity }
 			end
 		end
