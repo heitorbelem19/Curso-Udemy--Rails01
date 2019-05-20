@@ -1,8 +1,24 @@
 en:
-  actual_locale: "English (International)"
-  hello: "Hello world"
+  actual_locale: English (International)
+  hello: Hello world
+  welcome: Welcome
+  messages:
+    welcome: Crypto Wallet, learning Ruby on Rails
+    menu: Choose an option below  
+    confirm: Are you sure?
   links:
-    show: "Show"
     edit: "Edit"
-    delete: "Destroy"
+    show: "Show"
+    delete: "Delete"
+    new: "New"
+    back: "Back"
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+  editing:
+    coin: "Editing Coin"
+    mining_type: "Editing Mining Type"
+  showing:
+    coin: "Showing Coin"
+    mining_type: "Showing Mining Type"
 

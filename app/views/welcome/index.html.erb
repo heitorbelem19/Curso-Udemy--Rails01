@@ -1,11 +1,7 @@
-<h1> <%= link_to 'Português', root_path(locale: 'pt-BR') %> </h1>
-<h1> <%= link_to 'English', root_path(locale: 'en') %> </h1>
-<h1> Seja bem vindo ao Curso de Rails</h1>
-<h1> Idioma utilizado: <strong> <%= t('actual_locale') %> </strong> </h1>
-<h2> <%= l(Date.today) %> </h2>
-<h2> Ambiente de <%= environment(Rails.env) %> </h2>
-<h3> <%= @nome %> </h3>
-<h3> <%= @curso %> </h3>
-<ul> 
-    <%= render "menu" %>
-</ul>
+<div class="jumbotron">
+  <h1 class="display-4"> <%= t('welcome') %> </h1>
+  <p class="lead"> <%= t('messages.welcome')%> </p>
+  <hr class="my-4">
+  <p><%= t('messages.menu')%></p>
+  <%= render "menu" %>
+</div>
