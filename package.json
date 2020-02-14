@@ -6,7 +6,7 @@
     "jquery": "^3.4.1",
     "notify-js-legacy": "^0.4.1",
     "popper.js": "^1.15.0",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   },
   "version": "1.0.0",
   "main": "index.js",
